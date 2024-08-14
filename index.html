@@ -1,6 +1,41 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-  <body>
-    <h1>The Finimalist</h1>
-  </body>
+    <head>
+        <title>The Finimalist</title>
+        <link rel="icon" type="image/png" sizes="192x192" href="/assets/the-finimalist-favicon.png">
+    </head>
+    <body>
+        <style>
+            html {
+                box-sizing: border-box;
+            }
+            *, *:before, *:after {
+                box-sizing: inherit;
+            }
+            body {
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+                max-width: 640px;
+                margin: 0 auto;
+                padding: 1em;
+            }
+            header {}
+            main {
+                flex: 1;
+            }
+            footer {
+                padding: 1em;
+                align-self: center;
+            }
+        </style>
+    <header>
+        <img src="/assets/the-finimalist-banner.svg" alt="The Finimalist Banner" width="100%">
+    </header>
+    <main>
+    </main>
+    <footer>
+        <small>&copy; 2024, David Kellogg. All Rights Reserved</small>
+    </footer>
+    </body>
 </html>
