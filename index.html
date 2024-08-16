@@ -14,6 +14,8 @@
         <style amp-custom>
             html {
                 box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
             }
             *, *:before, *:after {
                 box-sizing: inherit;
@@ -26,8 +28,8 @@
                 flex-direction: column;
                 min-height: 100vh;
                 max-width: 640px;
-                margin: 0 auto;
                 padding: 1em;
+                align-self: center;
             }
             header {}
             main {
@@ -42,7 +44,7 @@
     
     <body>
         <header>
-            <amp-img src="/assets/the-finimalist-banner.svg" alt="The financial mimalist banner" layout="fill"></amp-img>
+            <amp-img src="/assets/the-finimalist-banner.svg" alt="The financial mimalist banner" layout="responsive" height="540" width="1920"></amp-img>
         </header>
         
         <main>
